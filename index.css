@@ -171,5 +171,56 @@ header {
                 box-shadow: 0 8px 7px #00000025;
             }
         }
-    }   
+    }
 }
+
+#croissants{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    
+    & .receita{
+        color:  #3C0E0E;
+
+        & .preco{
+            color: #F9C4C4;
+            font-size: 20px;
+            border-radius: 47px;
+            background-color: #FFFFFF;
+            width: 110px;
+            height: 39px;
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+        }
+
+        & h2{
+            color:#4D1D1D;
+            font-size: 80px
+        }
+
+        & .detalheC{
+            border: 1px solid black;
+            width: 50px;
+            /* margin-bottom: 14px;  */
+            margin-top: -20px;
+            margin-left: 5px;
+        }
+
+        & h3{
+            font-size: 40px;
+            
+        }
+
+        & p {
+            font-size: 16px;
+            color: #4D1D1D;
+            height: 74px;
+            width: 308px;
+        }
+    }
+
+
+}
+
